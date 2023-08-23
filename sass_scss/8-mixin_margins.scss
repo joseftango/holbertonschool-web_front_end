@@ -1,0 +1,18 @@
+// use mixin
+@mixin body_properties {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+@mixin div_properties {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+body {
+	@include body_properties()
+}
+
+div {
+	@include div_properties()
+}
