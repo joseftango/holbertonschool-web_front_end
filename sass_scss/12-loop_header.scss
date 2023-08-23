@@ -1,0 +1,6 @@
+// try looping using @for.
+@for $i from 0 through 4 {
+	h#{$i} {
+		font-size: $i + 1;
+	}
+}
