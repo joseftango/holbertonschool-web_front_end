@@ -375,10 +375,9 @@
   }
 
   /* Section ABOUT US ============================= */
-  .section-about-us .container .section-body .row .col- {
+  .section-about-us [class*='col-'] {
 	align-self: center;
   }
-
 
   /*** 4. CARD ***/
   
