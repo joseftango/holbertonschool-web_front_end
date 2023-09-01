@@ -595,7 +595,7 @@
 }
 
 .post-meta-list [class*="post-meta"]:last-of-type {
-	border: none;
+	border: 0;
 	margin-bottom: 3rem;
 }
 
