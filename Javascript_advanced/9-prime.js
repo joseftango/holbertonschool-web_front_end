@@ -33,5 +33,5 @@ function countPrimeNumbers() {
 }
   
 const primeCount = countPrimeNumbers();
-console.log(`Number of prime numbers between 2 and 100: ${primeCount}`);
+console.log(`Number of prime numbers from 2 to 100: ${primeCount}`);
   
