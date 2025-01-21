@@ -4,7 +4,7 @@ html {
 }
 
 body, a{
-    background-color: #161616;
+    color: #161616;
 }
 
 body .visually-hidden {
@@ -12,5 +12,5 @@ body .visually-hidden {
 }
 
 .card-category, .section-tagline {
-    background-color: #D73953;
+    color: #D73953;
 }
