@@ -5,9 +5,7 @@
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
-    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-family-title: var(--font-family-base);
-}
+}  
 
 html {
     scroll-behavior: smooth;
@@ -23,12 +21,4 @@ body .visually-hidden {
 
 .card-category, .section-tagline {
     color: var(--color-primary);
-}
-
-body {
-    font-family: var(--font-family-base);
-}
-
-h6 {
-    font-family: var(--font-family-title);
 }
