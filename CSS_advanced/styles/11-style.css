@@ -18,6 +18,8 @@
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+    --section-header-align: center;
+    --section-tagline-transform: uppercase;
 }
 
 html {
@@ -44,9 +46,17 @@ body .visually-hidden {
 .card-category, .section-tagline {
     color: var(--color-primary);
 }
-
+.section-header {
+    text-align: var(--section-header-align);
+}
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
+
+.section-tagline {
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
