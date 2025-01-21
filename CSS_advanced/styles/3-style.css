@@ -13,6 +13,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: var(--font-family-base);
+}
+
 body, a{
     color: var(--text-color);
 }
@@ -25,9 +29,6 @@ body .visually-hidden {
     color: var(--color-primary);
 }
 
-body {
-    font-family: var(--font-family-base);
-}
 
 h1,
 h2,
