@@ -41,15 +41,15 @@ body, a {
     text-decoration: none;
 }
 
-body, a:visited {
+body, a[href]:visited {
     font-style: italic;
 }
 
-body, a:hover {
+body, a[href]:hover {
     text-decoration: underline;
 }
 
-body, a:active {
+body, a[href]:active {
     background-color: var(--color-light-grey);
 }
 
