@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body header, a{
+body, a{
     background-color: #161616;
 }
 
