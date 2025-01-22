@@ -545,8 +545,5 @@ html {
 
   .social-link {
   display: block;
-  }
-
-  .social-link svg {
-    color: var(--text-color);
+  color: var(--text-color);
   }
