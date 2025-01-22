@@ -86,7 +86,7 @@ body .visually-hidden {
 
 .section-footer {
   padding: var(--section-footer-padding);
-  text-align: var(--section-footer-align);
+  margin: var(--section-footer-align);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -454,8 +454,4 @@ html {
   
   [hidden] {
     display: none;
-  }
-
-  .footer {
-    padding: var(--footer-padding);
   }
