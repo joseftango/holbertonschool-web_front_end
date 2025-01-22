@@ -532,6 +532,14 @@ html {
     color: var(--text-color);
   }
 
+  .social-link {
+    display: block;
+  }
+  
+  .social-link > svg {
+    fill: var(--text-color);
+  }
+
   [class^="col-"] {
     float: left;
     padding: 0.5rem;
@@ -541,9 +549,4 @@ html {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
-  }
-
-  .social-link {
-  display: block;
-  color: var(--text-color);
   }
