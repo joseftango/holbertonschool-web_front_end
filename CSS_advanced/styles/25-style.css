@@ -42,9 +42,9 @@
     --button-color: var(--color-black);
     --button-text-decoration: none;
     --button-font-size: var(--font-size-large);
-    --button-hover-color: var(var(--color-white));
+    --button-hover-color: var(--color-white);
     --button-hover-text-decoration: none;
-    --button-hover-background: var(var(--color-primary));
+    --button-hover-background: var(--color-primary);
     --
 }
 
