@@ -552,7 +552,7 @@ html {
   }
 
   .card-services .card-title {
-    margin: none;
+    margin: 0;
   }
 
   .card-services a {
