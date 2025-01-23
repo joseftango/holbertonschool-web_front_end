@@ -62,22 +62,6 @@ html {
     font-size: 62.5%;
 }
 
-header {
-  padding: var(--header-padding);
-}
-
-.header-logo {
-	position: var(--header-logo-position);
-}
-
-.header-logo a {
-	display: var(--header-logo-link-display);
-	position: var(--header-logo-link-position);
-	top: var(--header-logo-link-top);
-	left: var(--header-logo-link-left);
-}
-
-
 body {
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
@@ -134,6 +118,21 @@ body .visually-hidden {
 .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
+}
+
+header {
+  padding: var(--header-padding);
+}
+
+.header-logo {
+	position: var(--header-logo-position);
+}
+
+.header-logo a {
+	display: var(--header-logo-link-display);
+	position: var(--header-logo-link-position);
+	top: var(--header-logo-link-top);
+	left: var(--header-logo-link-left);
 }
 
 .section-body {
