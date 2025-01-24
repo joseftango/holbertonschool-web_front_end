@@ -101,8 +101,9 @@ body, a[href]:active {
 .button:hover {
 	color: var(--button-hover-color);
 	text-decoration: var(--button-hover-text-decoration);
-  transition-duration: var(--transition-duration);
-  transition: var(--button-hover-background);
+	background: var(--button-hover-background);
+	transition-duration: var(--transition-duration);
+	transition-property: color, background-color;
 }
 
 body .visually-hidden {
